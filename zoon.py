@@ -47,19 +47,15 @@ def jalan(z):
 
 
 ##### LOGO #####
-logo = """ -----------------------------•◈•
-(  __)\\ ____--------------_------------•◈•
-|__(~)    •||•THE - Binyamin -OFFICAL------•◈•
-|__\~~) •||•Zoon - Hacker---------------•◈•
-|__(-----\  •◈•------Cyber– Trick--------•◈•
-|__~~~\ •◈•-----█-------⑦-------█------•◈•
-|__~~~\ •◈•-----█-------⑧-------█------•◈•
-|__~~~\ •◈•-----█-------⑥-------█------•◈•
+logo = """
+
+\033[1;91m▀█ █▀█ █▀█ █▄░█
+\033[1;96m█▄ █▄█ █▄█ █░▀█
 \033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;FlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1; Aahilrna4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/Therana/zero
+\033[1;96mAuthor  \033[1;93m: \033[1;92mBinyamin Jan
+\033[1;96mInstagram \033[1;93m: \033[1;Flowsamim.ashrafi786
+\033[1;96mFacebook  \033[1;93m: \033[1; binyamin786jan
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/binyamin786/hacker
 \033[1;91m======================================="""
 
 def tik():
@@ -80,10 +76,10 @@ vuln = "\033[32mVuln"
 os.system("clear")
 print "\033[1;96m ============================================================="
 print  """\033[1;91m=======================================
-\033[1;96mAuthor  \033[1;93m: \033[1;92mRana Aahil
-\033[1;96mInstagram \033[1;93m: \033[1;92mFlowRana
-\033[1;96mFacebook  \033[1;93m: \033[1;92m Aahilrana4072
-\033[1;96mGithub \033[1;93m: \033[1;92mhttps://Github.com/Therana/zero
+\033[1;96mAuthor  \033[1;93m: \033[1;92Binyamin Jan
+\033[1;96mInstagram \033[1;93m: \033[1;92mFlowsamim.ashrafi786
+\033[1;96mFacebook  \033[1;93m: \033[1;93m binyamin786jan
+\033[1;96mGithub \033[1;93m: \033[1;92mhttps://github.com/binyamin786/hacker
 \033[1;91m======================================="""
 print " \x1b[1;93m============================================================="
 
@@ -411,6 +407,13 @@ def pilih_super():
 	print 42*"\033[1;96m="
 	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed \033[1;97m....'
 	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
+	print("\033[1;96m[+] \033[1;92mCP File Has Been Saved \033[1;91m: \033[1;97mout/checkpoint.txt")
+	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
+	menu()
+
+if __name__ == '__main__':
+	login()
+b[1;93mCP \033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print("\033[1;96m[+] \033[1;92mCP File Has Been Saved \033[1;91m: \033[1;97mout/checkpoint.txt")
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 	menu()
